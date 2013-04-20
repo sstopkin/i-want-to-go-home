@@ -27,7 +27,7 @@ public class SearchResultMain extends ListActivity {
         ArrayList<HashMap<String, String>> mylist = new ArrayList<HashMap<String, String>>();
       
        
-        String xml = SearchResultXMLfunctions.getXMLx();
+        String xml = SearchResultXMLfunctions.getXML();
         Document doc = SearchResultXMLfunctions.XMLfromString(xml);
                 
         int numResults = SearchResultXMLfunctions.numResults(doc);

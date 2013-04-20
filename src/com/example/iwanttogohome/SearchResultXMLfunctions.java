@@ -5,6 +5,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.StringReader;
+import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -14,6 +15,11 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.util.EntityUtils;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -70,7 +76,7 @@ public class SearchResultXMLfunctions {
 	     return "";
 	 }
 		 
-/*	 public static String getXML(){	 
+	 public static String getXML(){	 
 			String line = null;
 
 			try {
@@ -92,7 +98,7 @@ public class SearchResultXMLfunctions {
 
 			return line;
 
-	}*/
+	}
 	 
 	public static int numResults(Document doc){		
 		Node results = doc.getDocumentElement();

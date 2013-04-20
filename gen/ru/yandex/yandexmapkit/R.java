@@ -8,14 +8,14 @@ package ru.yandex.yandexmapkit;
 
 public final class R {
 	public static final class id {
-		public static final int ymk_find_me = 0x7f09000c;
-		public static final int ymk_scale = 0x7f090008;
-		public static final int ymk_screen_buttons_top = 0x7f090006;
-		public static final int ymk_screen_buttons_bottom = 0x7f090007;
-		public static final int ymk_balloon_text_view = 0x7f090005;
-		public static final int ymk_zoom_out = 0x7f09000b;
-		public static final int ymk_zoom_in = 0x7f09000a;
-		public static final int ymk_semaphore = 0x7f090009;
+		public static final int ymk_find_me = 0x7f09000b;
+		public static final int ymk_scale = 0x7f090007;
+		public static final int ymk_screen_buttons_top = 0x7f090005;
+		public static final int ymk_screen_buttons_bottom = 0x7f090006;
+		public static final int ymk_balloon_text_view = 0x7f090004;
+		public static final int ymk_zoom_out = 0x7f09000a;
+		public static final int ymk_zoom_in = 0x7f090009;
+		public static final int ymk_semaphore = 0x7f090008;
 	}
 	public static final class string {
 		public static final int ymk_my_place = 0x7f050002;
@@ -25,8 +25,8 @@ public final class R {
 		public static final int ymk_lang = 0x7f050000;
 	}
 	public static final class layout {
-		public static final int ymk_screen_buttons_layout = 0x7f030005;
-		public static final int ymk_balloon_default_layout = 0x7f030004;
+		public static final int ymk_screen_buttons_layout = 0x7f030004;
+		public static final int ymk_balloon_default_layout = 0x7f030003;
 	}
 	public static final class drawable {
 		public static final int ymk_tlight_loading = 0x7f02000d;
