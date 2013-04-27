@@ -8,6 +8,12 @@
 package com.example.iwanttogohome;
 
 public final class R {
+    public static final class array {
+        public static final int pref_example_list_titles=0x7f070000;
+        public static final int pref_example_list_values=0x7f070001;
+        public static final int pref_sync_frequency_titles=0x7f070002;
+        public static final int pref_sync_frequency_values=0x7f070003;
+    }
     public static final class attr {
     }
     public static final class dimen {
@@ -21,71 +27,133 @@ public final class R {
         public static final int activity_vertical_margin=0x7f060001;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
-        public static final int ymk_balloon_black=0x7f020001;
-        public static final int ymk_balloon_tail_black=0x7f020002;
-        public static final int ymk_balloon_text_color=0x7f020003;
-        public static final int ymk_empty_image=0x7f020004;
-        public static final int ymk_find_me_drawable=0x7f020005;
-        public static final int ymk_no_map_image=0x7f020006;
-        public static final int ymk_scale=0x7f020007;
-        public static final int ymk_sgrayvga=0x7f020008;
-        public static final int ymk_sgreenvga=0x7f020009;
-        public static final int ymk_sredvga=0x7f02000a;
-        public static final int ymk_stricolorvga=0x7f02000b;
-        public static final int ymk_syellowvga=0x7f02000c;
-        public static final int ymk_tlight_loading=0x7f02000d;
-        public static final int ymk_tlight_no_level_active=0x7f02000e;
-        public static final int ymk_tlight_no_level_active_pressed=0x7f02000f;
-        public static final int ymk_tlight_no_level_inactive=0x7f020010;
-        public static final int ymk_tlight_no_level_inactive_pressed=0x7f020011;
-        public static final int ymk_tlight_no_level_loading_1=0x7f020012;
-        public static final int ymk_tlight_no_level_loading_2=0x7f020013;
-        public static final int ymk_tlight_no_level_loading_3=0x7f020014;
-        public static final int ymk_user_location_gps=0x7f020015;
-        public static final int ymk_user_location_lbs=0x7f020016;
-        public static final int ymk_where_am_i=0x7f020017;
-        public static final int ymk_where_am_i_pressed=0x7f020018;
-        public static final int ymk_ya_logo=0x7f020019;
-        public static final int ymk_zoom_minus=0x7f02001a;
-        public static final int ymk_zoom_minus_drawable=0x7f02001b;
-        public static final int ymk_zoom_minus_pressed=0x7f02001c;
-        public static final int ymk_zoom_plus=0x7f02001d;
-        public static final int ymk_zoom_plus_drawable=0x7f02001e;
-        public static final int ymk_zoom_plus_pressed=0x7f02001f;
+        public static final int ic_bus_64_0=0x7f020000;
+        public static final int ic_bus_64_1=0x7f020001;
+        public static final int ic_bus_64_10=0x7f020002;
+        public static final int ic_bus_64_11=0x7f020003;
+        public static final int ic_bus_64_2=0x7f020004;
+        public static final int ic_bus_64_3=0x7f020005;
+        public static final int ic_bus_64_4=0x7f020006;
+        public static final int ic_bus_64_5=0x7f020007;
+        public static final int ic_bus_64_6=0x7f020008;
+        public static final int ic_bus_64_7=0x7f020009;
+        public static final int ic_bus_64_8=0x7f02000a;
+        public static final int ic_bus_64_9=0x7f02000b;
+        public static final int ic_launcher=0x7f02000c;
+        public static final int ic_tram_64_0=0x7f02000d;
+        public static final int ic_tram_64_1=0x7f02000e;
+        public static final int ic_tram_64_10=0x7f02000f;
+        public static final int ic_tram_64_11=0x7f020010;
+        public static final int ic_tram_64_2=0x7f020011;
+        public static final int ic_tram_64_3=0x7f020012;
+        public static final int ic_tram_64_4=0x7f020013;
+        public static final int ic_tram_64_5=0x7f020014;
+        public static final int ic_tram_64_6=0x7f020015;
+        public static final int ic_tram_64_7=0x7f020016;
+        public static final int ic_tram_64_8=0x7f020017;
+        public static final int ic_tram_64_9=0x7f020018;
+        public static final int ic_trolley_64_0=0x7f020019;
+        public static final int ic_trolley_64_1=0x7f02001a;
+        public static final int ic_trolley_64_10=0x7f02001b;
+        public static final int ic_trolley_64_11=0x7f02001c;
+        public static final int ic_trolley_64_2=0x7f02001d;
+        public static final int ic_trolley_64_3=0x7f02001e;
+        public static final int ic_trolley_64_4=0x7f02001f;
+        public static final int ic_trolley_64_5=0x7f020020;
+        public static final int ic_trolley_64_6=0x7f020021;
+        public static final int ic_trolley_64_7=0x7f020022;
+        public static final int ic_trolley_64_8=0x7f020023;
+        public static final int ic_trolley_64_9=0x7f020024;
+        public static final int star=0x7f020025;
+        public static final int ymk_balloon_black=0x7f020026;
+        public static final int ymk_balloon_tail_black=0x7f020027;
+        public static final int ymk_balloon_text_color=0x7f020028;
+        public static final int ymk_empty_image=0x7f020029;
+        public static final int ymk_find_me_drawable=0x7f02002a;
+        public static final int ymk_no_map_image=0x7f02002b;
+        public static final int ymk_scale=0x7f02002c;
+        public static final int ymk_sgrayvga=0x7f02002d;
+        public static final int ymk_sgreenvga=0x7f02002e;
+        public static final int ymk_sredvga=0x7f02002f;
+        public static final int ymk_stricolorvga=0x7f020030;
+        public static final int ymk_syellowvga=0x7f020031;
+        public static final int ymk_tlight_loading=0x7f020032;
+        public static final int ymk_tlight_no_level_active=0x7f020033;
+        public static final int ymk_tlight_no_level_active_pressed=0x7f020034;
+        public static final int ymk_tlight_no_level_inactive=0x7f020035;
+        public static final int ymk_tlight_no_level_inactive_pressed=0x7f020036;
+        public static final int ymk_tlight_no_level_loading_1=0x7f020037;
+        public static final int ymk_tlight_no_level_loading_2=0x7f020038;
+        public static final int ymk_tlight_no_level_loading_3=0x7f020039;
+        public static final int ymk_user_location_gps=0x7f02003a;
+        public static final int ymk_user_location_lbs=0x7f02003b;
+        public static final int ymk_where_am_i=0x7f02003c;
+        public static final int ymk_where_am_i_pressed=0x7f02003d;
+        public static final int ymk_ya_logo=0x7f02003e;
+        public static final int ymk_zoom_minus=0x7f02003f;
+        public static final int ymk_zoom_minus_drawable=0x7f020040;
+        public static final int ymk_zoom_minus_pressed=0x7f020041;
+        public static final int ymk_zoom_plus=0x7f020042;
+        public static final int ymk_zoom_plus_drawable=0x7f020043;
+        public static final int ymk_zoom_plus_pressed=0x7f020044;
     }
     public static final class id {
-        public static final int action_settings=0x7f09000c;
-        public static final int button1=0x7f090001;
-        public static final int item1=0x7f09000d;
-        public static final int item_subtitle=0x7f090003;
-        public static final int item_title=0x7f090002;
-        public static final int map=0x7f090000;
-        public static final int ymk_balloon_text_view=0x7f090004;
-        public static final int ymk_find_me=0x7f09000b;
-        public static final int ymk_scale=0x7f090007;
-        public static final int ymk_screen_buttons_bottom=0x7f090006;
-        public static final int ymk_screen_buttons_top=0x7f090005;
-        public static final int ymk_semaphore=0x7f090008;
-        public static final int ymk_zoom_in=0x7f090009;
-        public static final int ymk_zoom_out=0x7f09000a;
+        public static final int action_settings=0x7f0a000d;
+        public static final int editText1=0x7f0a0001;
+        public static final int item_subtitle=0x7f0a0004;
+        public static final int item_title=0x7f0a0003;
+        public static final int map=0x7f0a0000;
+        public static final int search=0x7f0a000e;
+        public static final int searchButton=0x7f0a0002;
+        public static final int ymk_balloon_text_view=0x7f0a0005;
+        public static final int ymk_find_me=0x7f0a000c;
+        public static final int ymk_scale=0x7f0a0008;
+        public static final int ymk_screen_buttons_bottom=0x7f0a0007;
+        public static final int ymk_screen_buttons_top=0x7f0a0006;
+        public static final int ymk_semaphore=0x7f0a0009;
+        public static final int ymk_zoom_in=0x7f0a000a;
+        public static final int ymk_zoom_out=0x7f0a000b;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int activity_search_result=0x7f030001;
-        public static final int activity_searchresultxml_listplaceholder=0x7f030002;
-        public static final int ymk_balloon_default_layout=0x7f030003;
-        public static final int ymk_screen_buttons_layout=0x7f030004;
+        public static final int activity_search_form=0x7f030001;
+        public static final int activity_search_result_list=0x7f030002;
+        public static final int activity_search_result_list_xml=0x7f030003;
+        public static final int ymk_balloon_default_layout=0x7f030004;
+        public static final int ymk_screen_buttons_layout=0x7f030005;
     }
     public static final class menu {
-        public static final int find=0x7f080000;
-        public static final int main=0x7f080001;
+        public static final int find=0x7f090000;
+        public static final int main=0x7f090001;
+        public static final int search_form=0x7f090002;
     }
     public static final class string {
-        public static final int action_settings=0x7f050006;
+        public static final int action_settings=0x7f050007;
         public static final int app_name=0x7f050005;
-        public static final int hello_world=0x7f050007;
-        public static final int title_activity_find=0x7f050008;
+        public static final int pref_default_display_name=0x7f05000e;
+        public static final int pref_description_social_recommendations=0x7f05000c;
+        /**  Example settings for Data & Sync 
+         */
+        public static final int pref_header_data_sync=0x7f050010;
+        /**  Strings related to Settings 
+ Example General settings 
+         */
+        public static final int pref_header_general=0x7f05000a;
+        /**  Example settings for Notifications 
+         */
+        public static final int pref_header_notifications=0x7f050013;
+        public static final int pref_ringtone_silent=0x7f050016;
+        public static final int pref_title_add_friends_to_messages=0x7f05000f;
+        public static final int pref_title_display_name=0x7f05000d;
+        public static final int pref_title_new_message_notifications=0x7f050014;
+        public static final int pref_title_ringtone=0x7f050015;
+        public static final int pref_title_social_recommendations=0x7f05000b;
+        public static final int pref_title_sync_frequency=0x7f050011;
+        public static final int pref_title_system_sync_settings=0x7f050012;
+        public static final int pref_title_vibrate=0x7f050017;
+        public static final int search=0x7f050008;
+        public static final int title_activity_search_form=0x7f050006;
+        public static final int title_activity_settings=0x7f050009;
         /**  parameter to send to the server 
          */
         public static final int ymk_findme_not_found=0x7f050001;
@@ -116,13 +184,17 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f070000;
+        public static final int AppBaseTheme=0x7f080000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f070001;
+        public static final int AppTheme=0x7f080001;
     }
     public static final class xml {
-        public static final int ymk_map_layers=0x7f040000;
+        public static final int pref_data_sync=0x7f040000;
+        public static final int pref_general=0x7f040001;
+        public static final int pref_headers=0x7f040002;
+        public static final int pref_notification=0x7f040003;
+        public static final int ymk_map_layers=0x7f040004;
     }
 }
