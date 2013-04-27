@@ -95,7 +95,7 @@ public class MainActivity extends Activity {
 
 		}
 		OverlayRect overlayRect = new OverlayRect(mMapController, pairList);// path
-		overlayRect.setPriority((byte)1);
+		//overlayRect.setPriority((byte)1);
 		mOverlayManager.addOverlay(overlayRect);
 
 		ArrayList<ArrayList<String>> listOflists = new ArrayList<ArrayList<String>>();
@@ -133,10 +133,10 @@ public class MainActivity extends Activity {
 			balloonBus.setText("asd");// singleList.indexOf(1)
 			// // Add the balloon model to the object
 			bus.setBalloonItem(balloonBus);
+			bus.setPriority((byte) 1);
 			// Add the object to the layer
 			busStopOverlay.addOverlayItem(bus);
 		}
-		busStopOverlay.setPriority((byte) 2);
 		mOverlayManager.addOverlay(busStopOverlay);
 	}
 
@@ -219,9 +219,9 @@ public class MainActivity extends Activity {
 			// // Add the balloon model to the object
 			bus.setBalloonItem(balloonBus);
 			// Add the object to the layer
+			bus.setPriority((byte) 1);
 			overlay.addOverlayItem(bus);
 		}
-		overlay.setPriority((byte)3);
 		mOverlayManager.addOverlay(overlay);
 
 	}
